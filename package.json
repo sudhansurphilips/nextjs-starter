@@ -8,10 +8,17 @@
     "start": "node node_modules/next/dist/bin/next start -p $PORT"
   },
   "dependencies": {
+    "axios": "^0.22.0",
+    "bootstrap": "^4.6.0",
     "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.21",
     "next": "9.3.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-bootstrap": "^1.6.4",
+    "react-dom": "16.13.1",
+    "react-icons": "^4.3.1",
+    "react-image-gallery": "^1.2.7",
+    "react-simple-star-rating": "^3.0.0"
   },
   "devDependencies": {
     "serve": "^11.3.2"
