@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "build": "node node_modules/next/dist/bin/next build && node node_modules/next/dist/bin/next export",
+    "start": "node node_modules/next/dist/bin/next start"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
