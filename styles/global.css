@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "centrale_sans_regular";
+  src: url("/fonts/CentraleSans-Regular-webfont.ttf");
+  src: url("/fonts/CentraleSans-Regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/CentraleSans-Regular-webfont.woff") format("woff"),
+    url("/fonts/CentraleSans-Regular-webfont.ttf") format("truetype"),
+    url("/fonts/CentraleSans-Regular-webfont.svg#centrale_sans_regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "centrale_sans_bold";
+  src: url("/fonts/centrale-sans-bold.ttf");
+  src: url("/fonts/centrale-sans-bold.woff") format("woff"),
+    url("/fonts/centrale-sans-bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/centrale-sans-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "centrale_sans_book";
+  src: url("/fonts/centrale-sans-book.ttf");
+  src: url("/fonts/centrale-sans-book.woff") format("woff"),
+    url("/fonts/CentraleSans-Book.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/centrale-sans-book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "centrale_sans_medium";
+  src: url("/fonts/CentraleSans-Medium.ttf");
+  src: url("/fonts/CentraleSans-Medium.woff") format("woff"),
+    url("/fonts/CentraleSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/CentraleSans-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "centrale_sans_light";
+  src: url("/fonts/CentraleSans-Light.ttf");
+  src: url("/fonts/CentraleSans-Light.woff") format("woff"),
+    url("/fonts/CentraleSans-Light.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/CentraleSans-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "centrale_sans_thin";
+  src: url("/fonts/CentraleSans-Thin.ttf");
+  src: url("/fonts/CentraleSans-Thin.woff") format("woff"),
+    url("/fonts/CentraleSans-Thin.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/CentraleSans-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "centrale_sans_xbold";
+  src: url("/fonts/CentraleSans-Xbold.ttf");
+  src: url("/fonts/CentraleSans-Xbold.woff") format("woff"),
+    url("/fonts/CentraleSans-Xbold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/CentraleSans-Xbold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "centrale-sans-xbold";
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+
+.min-height-1 {
+  min-height: 1rem;;
+}
+
+.min-height-2 {
+  min-height: 2rem;;
+}
+
+.min-height-3 {
+  min-height: 3rem;;
+}
+
+.min-height-4 {
+  min-height: 4rem;;
+}
+
+.min-height-5 {
+  min-height: 5rem;;
+}
+
+.min-height-6 {
+  min-height: 6rem;;
+}
+
+.min-height-7 {
+  min-height: 7rem;;
+}
+
+.min-height-8 {
+  min-height: 8rem;;
+}
+
+.min-height-9 {
+  min-height: 9rem;;
+}
+
+.min-height-10 {
+  min-height: 10rem;;
+}
+
+.min-height-11 {
+  min-height: 11rem;;
+}
+
+.min-height-12 {
+  min-height: 12rem;;
+}
+
+
+/************************Navigation START****************/
+
+
+.bg-philips-primary-nav-bar {
+  z-index: 11;
+  background-color: #1474a4;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+}
+
+.bg-philips-primary-nav-bar .p-brand {
+  width: 120px;
+}
+
+.bg-philips-primary-nav-bar .navbar-collapse {
+  background-color: #1474a4;
+}
+
+/*********************Navigation END**************************/
