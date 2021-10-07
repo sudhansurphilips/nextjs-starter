@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node node_modules/next/dist/bin/next build && node node_modules/next/dist/bin/next export",
-    "start": "node node_modules/next/dist/bin/next start"
+    "start": "node node_modules/next/dist/bin/next start -p $PORT"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
