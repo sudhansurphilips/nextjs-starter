@@ -1,4 +1,4 @@
-import { getHomeProducts } from './lib/products'
+const {getHomeProducts} = require('./lib/products')
 
 module.exports = {
   trailingSlash: true,
