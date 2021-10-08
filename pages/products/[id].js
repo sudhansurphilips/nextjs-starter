@@ -19,12 +19,13 @@ function Product ({ ctn }) {
 Product.getInitialProps = async ctx => {
   const {query} = ctx;
   const {id} = query
+  const ctn = id.replace('_', '/')
   /* const productData = await getProductSummary(id)
   console.log('productData', productData)
   const bazarVoice = await getBazaarVoiceData(id) 
   console.log('id', id)
   console.log('bazarVoice', bazarVoice)  */
-  return { ctn:id }
+  return { ctn }
 }
 
 export default Product

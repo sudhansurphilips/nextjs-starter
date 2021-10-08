@@ -31,7 +31,7 @@ const Home = ({ homeProducts }) => (
                       {descriptor}
                     </h6>
                     <p className='card-text min-height-8'>{productTitle}</p>
-                    <Link href={`/products/${encodeURIComponent(ctn)}`}>
+                    <Link href={`/products/${ctn.replace('/','_')}`}>
                       <a className='card-link btn btn-warning'>View Product</a>
                     </Link>
                   </div>
