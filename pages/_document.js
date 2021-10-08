@@ -1,56 +1,146 @@
 // /pages/_document.js
-import React from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import React from 'react'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
-  render() {
+  render () {
     return (
-      <Html lang="en">
+      <Html lang='en'>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css?family=PT+Sans:300,400,700,800"
-            rel="stylesheet"
-          />
-           <link
-            rel="preload"
-            href="/fonts/CentraleSans-Regular-webfont.ttf"
-            as="font"
-            crossOrigin=""
+            href='https://fonts.googleapis.com/css?family=PT+Sans:300,400,700,800'
+            rel='stylesheet'
           />
           <link
-            rel="preload"
-            href="/fonts/centrale-sans-bold.ttf"
-            as="font"
-            crossOrigin=""
+            rel='preload'
+            href='/fonts/CentraleSans-Regular-webfont.ttf'
+            as='font'
+            crossOrigin=''
           />
           <link
-            rel="preload"
-            href="/fonts/centrale-sans-book.ttf"
-            as="font"
-            crossOrigin=""
+            rel='preload'
+            href='/fonts/CentraleSans-Regular-webfont.eot?#iefix'
+            as='font'
+            crossOrigin=''
           />
           <link
-            rel="preload"
-            href="/fonts/CentraleSans-Medium.ttf"
-            as="font"
-            crossOrigin=""
+            rel='preload'
+            href='/fonts/CentraleSans-Regular-webfont.woff'
+            as='font'
+            crossOrigin=''
           />
           <link
-            rel="preload"
-            href="/fonts/CentraleSans-Light.ttf"
-            as="font"
-            crossOrigin=""
+            rel='preload'
+            href='/fonts/CentraleSans-Regular-webfont.svg#centrale_sans_regular'
+            as='font'
+            crossOrigin=''
           />
           <link
-            rel="preload"
-            href="/fonts/CentraleSans-Thin.ttf"
-            as="font"
-            crossOrigin=""
+            rel='preload'
+            href='/fonts/centrale-sans-bold.woff'
+            as='font'
+            crossOrigin=''
           />
           <link
-            rel="preload"
-            href="/fonts/CentraleSans-Xbold.ttf"
-            as="font"
-            crossOrigin=""
+            rel='preload'
+            href='/fonts/centrale-sans-bold.ttf'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/centrale-sans-bold.eot?#iefix'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/centrale-sans-book.ttf'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/centrale-sans-book.woff'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Book.eot?#iefix'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Medium.ttf'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Medium.woff'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Medium.eot?#iefix'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Light.ttf'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Light.woff'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Light..eot?#iefix'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Thin.ttf'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Thin.woff'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Thin.eot?#iefix'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Xbold.ttf'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Xbold.woff'
+            as='font'
+            crossOrigin=''
+          />
+          <link
+            rel='preload'
+            href='/fonts/CentraleSans-Xbold.eot?#iefix'
+            as='font'
+            crossOrigin=''
           />
         </Head>
         <body>
@@ -58,7 +148,7 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }
-export default MyDocument;
+export default MyDocument
