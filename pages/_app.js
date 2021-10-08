@@ -1,4 +1,6 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/react-image-gallery/styles/css/image-gallery.css'
+
 //import '../styles/reset.css';
 //import '../styles/main.css';
 import '../styles/global.css'

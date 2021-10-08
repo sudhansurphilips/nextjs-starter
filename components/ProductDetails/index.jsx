@@ -11,8 +11,7 @@ import {
   getRetailData
 } from '../../lib/products'
 import FeatureBox from './FeatureBox'
-//@import "~react-image-gallery/styles/css/image-gallery.css";
-import '../../node_modules/react-image-gallery/styles/css//image-gallery.css'
+
 
 const ProductDetails = ({ ctn }) => {
   //const { summary, accessories, features } = productData
