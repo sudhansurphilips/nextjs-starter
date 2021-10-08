@@ -1,5 +1,6 @@
 .headerContainer {
     display: flex;
+    font-family: 'centrale_sans_book' !important;
 }
 
 .header {

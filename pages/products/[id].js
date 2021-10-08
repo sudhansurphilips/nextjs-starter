@@ -17,9 +17,18 @@ function Product ({ ctn }) {
 }
 
 Product.getInitialProps = async ctx => {
-  const {query} = ctx;
+  const {query, asPath} = ctx;
+  // console.log('query', query, 'asPath', asPath)
   const {id} = query
-  const ctn = id.replace('_', '/')
+  let ctn;
+  if(!id) {
+    ctn = asPath.split('/')[2]
+    ctn = ctn.replace('_', '/')
+  } else {
+    ctn = id.replace('_', '/')
+  }
+  // console.log('ctn', ctn)
+  
   /* const productData = await getProductSummary(id)
   console.log('productData', productData)
   const bazarVoice = await getBazaarVoiceData(id) 
