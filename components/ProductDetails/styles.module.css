@@ -1,0 +1,97 @@
+
+.productFamilyName {
+    font-weight: 700;
+    letter-spacing: -.2px;
+    font-size: 21px;
+    line-height: 26px;
+    color: #323232;
+    font-family: "centrale_sans_light";
+}
+
+.productDescriptor {
+    font-family: "centrale_sans_light";
+    display: inline;
+    font-weight: 300;
+    letter-spacing: -.5px;
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 24px;
+    color: #323232;
+}
+
+.productDescriptor span {
+    color: #323232;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.productRatings {}
+
+.productBenifits {
+    font-family: "centrale_sans_medium";
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.productBenifits ul {
+    font-size: 14px;
+    line-height: 22px;
+    list-style: none;
+    margin: 0;
+    color: #3c3c3c;
+    padding-left: 0;
+    font-weight: 500;
+}
+
+.productBenifits ul li {
+    position: relative;
+    padding: 0 0 .5em 1em;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.productBenifits ul li:before {
+    position: absolute;
+    font-weight: 400;
+    font-size: 1.3em;
+    top: 0;
+    left: 0;
+    content: "•";
+}
+
+.seeAllBenifits, .seeAllBenifitsRating {
+    text-decoration: none;
+    color: #0066a1;
+    cursor: pointer;
+}
+
+.seeAllBenifitsRating {
+    margin-left: 2rem;
+}
+.seeAllBenifitsRating a:after {
+    content: " ›";
+    font-weight: 800;
+}
+
+.productPrice {
+ margin-top: 1rem;
+}
+
+.philipsPrice {
+    color: #666;
+    font-size: 12px;
+    font-family: "centrale_sans_medium";
+}
+
+.benefitsHeader {
+    font-family: 'centrale_sans_book';
+}
+
+.benefitsHeader p {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-size: 16px;
+}

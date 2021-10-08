@@ -1,0 +1,47 @@
+.shoppingBanner {
+  display: block;
+  background-color: #f5f5f5;
+  height: 48px;
+}
+
+.shoppingBanner p,
+.shoppingBanner label {
+  margin: 0;
+  padding: 0;
+}
+
+.shoppingBanner ul {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.shoppingBanner ul li {
+  //margin: 13px 0 11px;
+  display: table;
+  height: 48px;
+}
+
+.shoppingBanner ul li .banner-icon {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.shoppingBanner ul li .banner-icon .text-with-icon {
+  //margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  float: none;
+  margin-left: 0;
+  margin-right: 12px;
+}
+
+.shoppingBanner ul li .banner-icon .text-with-icon i {
+  line-height: 18px;
+}
+
+shoppingBanner ul li .banner-icon .text-with-icon i.icon::after {
+  content: "\e703";
+}

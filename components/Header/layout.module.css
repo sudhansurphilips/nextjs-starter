@@ -1,0 +1,65 @@
+.headerContainer {
+    display: flex;
+}
+
+.header {
+    min-height: 5rem;
+    width: 100%;
+    border-bottom: 1px solid blue;
+    background-color: blueviolet;
+}
+
+.headerContent {
+    max-width: 1120px;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.headerContent .nav-bar {
+    margin-left: 5rem;
+    height: 5rem;
+}
+
+.headerContent .nav-bar .nav-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 0.5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: grey;
+
+    transition: color 0.2s;
+}
+
+.headerContent .nav-bar &+a {
+    margin-left: 2rem;
+}
+
+.headerContent .nav-bar &:hover {
+    color: grey;
+}
+
+.headerContent .nav-bar &.active {
+    color: grey;
+    font-weight: bold;
+}
+
+.headerContent .nav-bar &.active::after {
+    content: '';
+    height: 3px;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    background: yellow;
+}
+
+.headerContent .nav-bar button {
+    margin-left: auto;
+
+}

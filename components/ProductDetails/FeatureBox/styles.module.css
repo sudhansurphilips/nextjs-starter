@@ -1,0 +1,33 @@
+.featureBox {
+    font-family: 'centrale_sans_regular';
+}
+
+.featureBox picture {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.featureBox picture img {
+    text-align: center;
+    display: inline;
+}
+
+.featureBox .p-feature-image {
+    text-align: center;
+}
+
+.featureTitle {
+    font-family: 'centrale_sans_regular';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 14px;
+}
+
+.featureDesc {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

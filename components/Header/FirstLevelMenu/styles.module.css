@@ -1,0 +1,49 @@
+.firstLevelMenu {
+    display: block;
+    background-color: #1474a4;
+    min-height: 48px;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+
+.navbar-nav:first-child {
+    margin-left: 124px;
+}
+
+.bg-philips-primary-nav-bar a.navbar-brand {
+    color: #fff;
+}
+
+.bg-philips-primary-nav-bar a.navbar-brand img {
+    height: 48px;
+}
+
+.bg-philips-primary-nav-bar .product-label {
+    color: #fff;
+}
+
+.bg-philips-primary-nav-bar .navbar-brand {
+    font-size: 1.6rem;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+
+.nav-bar-toggle {
+    position: absolute;
+    right: 0px;
+}
+
+.nav-bar-toggle .nav-item {
+    color: white;
+    cursor: pointer;
+}
+
+.nav-bar-toggle .icon-button {
+    width: 24px;
+    margin: auto 0.25rem;
+    margin-right: 1rem;
+    text-align: center;
+}
